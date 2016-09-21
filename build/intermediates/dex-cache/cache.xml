@@ -1,3 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_a71e8600ea7f2aad4a7884b8b019ff1b29e4607b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_8a7341ecc47f2b8d866fb0110893ba9aca6ba334.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_67bf0d5a28d1a953bf2b18acb1ee2bb2608cd9b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-9.4.0_7e7aa6ff977b32eebd3be3b92d6070b06fc7efde.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.0_ea118916285f50a6599e0034ebb99c86045190f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-9.4.0_d55184ad41da9505be126c6bcb222b004e08097b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.0_89d6bee6bd72f37691c737def4b21695308d16b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.0_cc5797b5ab1b000af72a6d1b2fcf94a8ea0110af.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.0_28dd7958c5e231d8e762f2483c8051e2a98b52a1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-9.4.0_255a7f6c5d3fe3e10ae0860c075db0c3b72c28b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_dc2a5d9423b9842f893ebf42e5694d19437ae630.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_675a94d7e1036efb10c5e37f1d97f6ab1bc9166f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.0_48af101db09ced274ae4e4753472cef4260d3e63.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-location-9.4.0_eb73b395cfac2566ec720e2a8f2f5b0836838f94.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\support-annotations-24.2.0_d2ae9c7be46668c8489e3f06c2b496ca1d7bb8a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.0_a69620529d612583470e080d65a586726b5b696d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.0_10e83897ff90499cf3b42a5e277e97e3831f6c9d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.0_b22cc56444527ae5c3994ad59e693fb6b0693c5b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-maps-9.4.0_f83ec0452c03d92ef1239877d9e577aefef8856d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Jonas\AndroidStudioProjects\Assignment1\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.0_6355faab68ecd54a650948b0e30264e63196d030.jar" />
+    </item>
+
+</items>

@@ -1,6 +1,5 @@
 package com.example.jonas.assignment1.data;
 
-
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
