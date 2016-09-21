@@ -20,8 +20,8 @@ public class CityDbHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String SQL_CREATE_CITY_TABLE = "CREATE TABLE " + CityContract.CityEntry.TABLE_NAME + "("
-                + CityContract.CityEntry._ID + "INTEGER PRIMARY KEY AUTOINCREMENT"
-                + CityContract.CityEntry.COLUMN_CITY_NAME + "TEXT NOT NULL );";
+                + CityContract.CityEntry._ID + "INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + CityContract.CityEntry.COLUMN_CITY_NAME + "TEXT NOT NULL);";
 
         db.execSQL(SQL_CREATE_CITY_TABLE);
 

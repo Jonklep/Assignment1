@@ -1,6 +1,5 @@
 package com.example.jonas.assignment1;
 
-import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -67,15 +66,6 @@ public class ActivityHistory extends AppCompatActivity {
         } finally {
             cursor.close();
         }
-    }
-
-    private void insertCity() {
-        SQLiteDatabase db = mDbHelper.getWritableDatabase();
-
-        ContentValues values = new ContentValues();
-        values.put(CityContract.CityEntry.COLUMN_CITY_NAME, "Gjovik");
-
-        long newRowId = db.insert(CityContract.CityEntry.TABLE_NAME, null, values);
     }
 
 }

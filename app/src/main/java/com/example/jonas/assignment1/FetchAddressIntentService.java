@@ -1,7 +1,9 @@
 package com.example.jonas.assignment1;
 
 import android.app.IntentService;
+import android.content.ContentValues;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -9,6 +11,10 @@ import android.os.Bundle;
 import android.os.ResultReceiver;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
+
+import com.example.jonas.assignment1.data.CityContract;
+import com.example.jonas.assignment1.data.CityDbHelper;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,6 +28,8 @@ import java.util.Locale;
  */
 public class FetchAddressIntentService extends IntentService {
     private static final String TAG = "FetchAddressIS";
+
+    private String mCityName;
 
     /**
      * The receiver where results are forwarded from this service.
@@ -129,6 +137,8 @@ public class FetchAddressIntentService extends IntentService {
             for(int i = 0; i < address.getMaxAddressLineIndex(); i++) {
                 addressFragments.add(address.getAddressLine(i));
             }
+            mCityName = address.getLocality();
+
             Log.i(TAG, getString(R.string.address_found));
             deliverResultToReceiver(Constants.SUCCESS_RESULT,
                     TextUtils.join(System.getProperty("line.separator"), addressFragments));
@@ -145,6 +155,16 @@ public class FetchAddressIntentService extends IntentService {
     }
 
     private void insertCity() {
-        String nameString = nNameEditText.getText()
+        CityDbHelper mDbHelper = new CityDbHelper(this);
+        SQLiteDatabase db = mDbHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(CityContract.CityEntry.COLUMN_CITY_NAME, mCityName);
+
+        long newRowId = db.insert(CityContract.CityEntry.TABLE_NAME, null, values);
+        if (newRowId == -1) {
+            Toast.makeText(this, "Error with saving city", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "City saved with new row id: " + newRowId, Toast.LENGTH_SHORT).show();
+        }
     }
 }
